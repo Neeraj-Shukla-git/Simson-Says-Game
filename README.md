@@ -1,3 +1,3 @@
-# SimonSay Game
+# Simon Says Game
 
 Mini Frontend - project

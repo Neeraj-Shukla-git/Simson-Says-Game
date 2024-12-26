@@ -1,58 +1,93 @@
-body{
+body {
     text-align: center;
     background-color: rgba(10, 10, 10, 0.74);
 }
 
 .heading1{
-    color: #add1ff;
-}
-
-.heading2{
-    color: #e6e6e6;
+    color: #ADD1FF;
 }
 
 .heading4{
-    color: #e6e6e6;
+    color: #E6E6E6;
 }
-.btn{
-    height: 13rem;
-    width: 13rem;
-    border-radius: 20%;
-    /* border: 8px solid black; */
-    margin: 1rem;
+.heading2{
+    color: #E6E6E6;
 }
-.btn-container{
-    /* height: 22rem; */
-    /* width: 30rem; */
-    /* border-radius: 8%; */
-    /* border: 10px solid black; */
-    display:flex;
+
+
+.btn {
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    border: 5px solid black;
+    margin: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers content vertically */
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.number {
+    margin: 0; /* Removes any default margin */
+    position: absolute; /* Ensure proper positioning */
+    text-align: center; /* Aligns text to the center horizontally */
+    transform: translateY(-50%);
+    top: 50%; /* Vertically centers the text */
+}
+.btn-container {
+    
+    display: flex;
     justify-content: center;
 }
 
 
-.red{
-    background-color: #ef3b36;
-    opacity: 0.5;
-}
-.yellow{
-    background-color: #ffc371;
-    opacity: 0.5;
-}
-.green{
-    background-color: #34e89c;
-    opacity: 0.5;
-}
-.purple{
-    background-color: #1cb5e0;
-    opacity: 0.5;
+.yellow {
+    background-color: #FFC371;
 }
 
-.flash{
-    /* background-color: white; */
-    opacity: 1;
+.red {
+    background-color: #EF3B36;
 }
 
-.userflash{
+.purple {
+    background-color: #1CB5E0;
+}
+
+.green {
+    background-color: #34E89C;
+}
+
+
+.flash {
     background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}
+
+.Rules {
+    display: flex; /* Enables flexbox for centering */
+    flex-direction: column; /* Stacks child elements vertically */
+    align-items: center; /* Centers horizontally */
+    justify-content: center; /* Centers vertically */
+    text-align: center; /* Ensures text inside <p> is centered */
+    margin: 0 auto; /* Centers the container horizontally if it has a fixed width */
+    padding: 20px; /* Optional padding for spacing */
+    box-sizing: border-box; /* Includes padding in height/width calculations */
+}
+
+.rulesColor{
+    color: #E0EEFF ;
+}
+
+@media screen and (max-width: 345px) {
+    .btn {
+        width: 120px;
+        height: 120px;
+    }
 }

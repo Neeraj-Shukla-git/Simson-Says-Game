@@ -1,3 +1,7 @@
 # Simon Says Game
 
-Mini Frontend - project
+# Technologies Used
+ 
+HTML
+CSS
+JavaScript
